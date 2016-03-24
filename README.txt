@@ -2,13 +2,13 @@ This is for a webpage to easily process GDR Orders.
 
 
 GDR Orders list:
-Home Dec Zip 1_4 and 5_10
+Home Dec Zip 1_4 and 5_10 and remaining
 CB2
 ART
 Krol
 GDR_RF
 DBAB and DBCD
-GDR_SN
+GDR_SN_2016 3 different queries
 
 Things that need to be able to be edited:
 
