@@ -8,7 +8,7 @@ ART
 Krol
 GDR_RF
 DBAB and DBCD
-GDR_SN_2016 3 different queries
+GDR_SN_2016 2 different queries
 
 Things that need to be able to be edited:
 
