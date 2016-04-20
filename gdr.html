@@ -9,12 +9,16 @@
         .well button {
             margin-top: 5px;
         }
+        h1 {
+            font-weight: bold;
+        }
     </style>
 
 </head>
 
 <body>
     <div class="container">
+        <h1 class="text-center">GDR Processing</h1>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingOne">
@@ -188,17 +192,18 @@
                 </div>
             </div>
         </div>
+        <h1 class="text-center">Other Tools</h1>
         <div class="row">
-            <div class="col-md-6 well" id="fileUpload">
+            <div class="col-md-6 well" id="dedupUpload">
                 <form class="form-inline">
-                    <label class="control-label">Dedup File</label>
-                    <input id="input-1" type="file" class="file">
+                    <label for="exampleInputFile">Dedup File</label>
+                    <input type="file" id="dedupFile">
                     <button type="submit" name="dedupBtn" class="btn btn-success">Upload</button>
                 </form>
             </div>
             <div class="col-md-6 well" id="zipLookup">
-                <label class="control-label">Zip lookup File</label>
-                <input id="input-2" type="file" class="file">
+                <label for="exampleInputFile">Zip Lookup</label>
+                <input type="file" id="zipLookupFile">
                 <button type="submit" name="zipLookBtn" class="btn btn-success">Upload</button>
             </div>
         </div>
