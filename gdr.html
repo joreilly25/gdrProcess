@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <title>GDR</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        .well button {
+            margin-top: 5px;
+        }
+    </style>
 
 </head>
 
@@ -181,6 +186,20 @@
                         </form>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 well" id="fileUpload">
+                <form class="form-inline">
+                    <label class="control-label">Dedup File</label>
+                    <input id="input-1" type="file" class="file">
+                    <button type="submit" name="dedupBtn" class="btn btn-success">Upload</button>
+                </form>
+            </div>
+            <div class="col-md-6 well" id="zipLookup">
+                <label class="control-label">Zip lookup File</label>
+                <input id="input-2" type="file" class="file">
+                <button type="submit" name="zipLookBtn" class="btn btn-success">Upload</button>
             </div>
         </div>
     </div>
