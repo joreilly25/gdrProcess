@@ -1,0 +1,11 @@
+IT ADMIN PAGE
+
+New Hire
+	First Name
+	Last Name
+	Email
+	Group
+	
+Term
+	Enter email to delete it
+	
