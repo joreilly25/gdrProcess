@@ -7,5 +7,5 @@ New Hire
 	Group
 	
 Term
-	Enter email to delete it
+	Enter email to delete account
 	
